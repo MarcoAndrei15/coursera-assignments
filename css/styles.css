@@ -1,0 +1,86 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: #F3F2EE;
+  font-family: 'Varela', sans-serif;
+  text-align: center;
+}
+
+#header-nav {
+  background-color: #1D1D1D;
+  border-radius: 0;
+  border: 0;
+  padding: 0px 25px 0px 25px
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-header h1 { 
+  font-family: 'Varela', sans-serif;
+  color: #D1CAC2;
+  font-size: 2.5em;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #D1CAC2;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+button {
+  float: right;
+}
+
+#h2 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+h1 {
+  font-family: 'Varela', sans-serif;
+  text-align: center;
+}
+
+h2 {
+  color: #1D1D1D;
+}
+
+p {
+  background-color: #B2604B;
+  border: 2px solid black;
+  height: auto;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: 10px 15px 10px 15px;
+  overflow: hidden;
+  font-family: 'Varela', sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color:#00A0C6; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
